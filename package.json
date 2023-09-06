@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "build-storybook": "nx run-many --target=build-storybook --all"
   },
   "private": true,
   "dependencies": {
@@ -47,6 +48,7 @@
     "@vitest/coverage-c8": "^0.32.0",
     "@vitest/ui": "^0.32.0",
     "autoprefixer": "10.4.13",
+    "chromatic": "^7.0.0",
     "cypress": "^12.11.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",

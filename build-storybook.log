@@ -1,0 +1,75 @@
+
+> @prismic-challenge-filterable-list/source@0.0.0 build-storybook
+> nx run-many --target=build-storybook --all --output-dir /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+
+
+ >  NX   Running target build-storybook for project prismic-challenge-filterable-list:
+
+    - prismic-challenge-filterable-list
+   
+   With additional flags:
+     --output-dir=/var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+
+ 
+
+> nx run prismic-challenge-filterable-list:build-storybook --output-dir /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+
+
+>  NX  Storybook builder starting ...
+
+info => Cleaning outputDir: /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+info => Loading presets
+info => Building manager..
+info => Manager built (75 ms)
+info => Copying static files: /Users/nicoinch/Workspace/JobHunt/Prismic/prismic-challenge-filterable-list/node_modules/@storybook/manager/static at /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/sb-common-assets
+vite v4.4.9 building for production...
+transforming...
+✓ 1332 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/iframe.html                                          12.84 kB │ gzip:   3.61 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-552a96b2.css                           7.83 kB │ gzip:   2.35 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-0b293f2a.js                            0.11 kB │ gzip:   0.13 kB │ map:     0.52 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/WithTooltip-J57HCPYA-935f755b.js               0.45 kB │ gzip:   0.30 kB │ map:     0.11 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/syntaxhighlighter-PONEFOSF-bb2d1559.js         0.47 kB │ gzip:   0.32 kB │ map:     0.12 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-9264c952.js                            0.52 kB │ gzip:   0.35 kB │ map:     0.58 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/index-3fd0d1ea.js                              0.62 kB │ gzip:   0.38 kB │ map:     4.32 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/app.stories-96dc6abc.js                        0.66 kB │ gzip:   0.42 kB │ map:     1.02 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/_commonjsHelpers-de833af9.js                   0.75 kB │ gzip:   0.43 kB │ map:     0.11 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/index-356e4a49.js                              0.81 kB │ gzip:   0.51 kB │ map:     3.30 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-b3c37142.js                            0.90 kB │ gzip:   0.59 kB │ map:     3.05 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-1399f6c8.js                            1.13 kB │ gzip:   0.74 kB │ map:     4.17 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/uniq-74106574.js                               1.20 kB │ gzip:   0.69 kB │ map:    11.34 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-a60aa466.js                            2.40 kB │ gzip:   1.25 kB │ map:    11.43 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-15309724.js                            3.22 kB │ gzip:   1.39 kB │ map:    10.32 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/iframe-20b0110a.js                             4.15 kB │ gzip:   1.65 kB │ map:     5.12 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/index-76fb7be0.js                              7.21 kB │ gzip:   2.95 kB │ map:    15.79 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-b8d6c68d.js                            7.67 kB │ gzip:   1.59 kB │ map:    14.30 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-2059b184.js                            8.32 kB │ gzip:   3.20 kB │ map:    29.55 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/index-d38bc732.js                             10.52 kB │ gzip:   3.41 kB │ map:    38.67 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/preview-124c01db.js                           11.21 kB │ gzip:   4.10 kB │ map:    30.02 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/_baseIsEqual-6dc2ea9c.js                      13.34 kB │ gzip:   5.44 kB │ map:   101.73 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/index-03bbf7d1.js                             13.55 kB │ gzip:   5.09 kB │ map:    53.27 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/GlobalScrollAreaStyles-UY5SB7EJ-bddb2c58.js   15.05 kB │ gzip:   2.84 kB │ map:    21.46 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/Color-6VNJS4EI-b9e53530.js                    17.62 kB │ gzip:   6.77 kB │ map:    59.94 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/filterable-list-3dd8a7df.js                   24.69 kB │ gzip:   8.25 kB │ map:   119.53 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/OverlayScrollbars-GZGLA7DL-14afcb95.js        28.95 kB │ gzip:  14.20 kB │ map:   108.18 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/_getPrototype-053d6a9b.js                    199.82 kB │ gzip:  61.67 kB │ map:   558.95 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/config-4580e560.js                           323.34 kB │ gzip:  99.59 kB │ map: 1,162.94 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/DocsRenderer-3PUGWF3O-9fcc63be.js            519.28 kB │ gzip: 170.28 kB │ map: 1,485.53 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/formatter-SWP5E3XI-44a3aa89.js               601.65 kB │ gzip: 185.09 kB │ map: 1,318.63 kB
+../../../../../../var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN/assets/filterable-list.stories-ef660f6f.js          694.51 kB │ gzip: 199.93 kB │ map: 2,122.48 kB
+✓ built in 5.10s
+info => Output directory: /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+
+>  NX  Storybook builder finished ...
+
+
+>  NX  Storybook files available in /var/folders/gl/zwpzw6rj0p7g0fz29sd453vw0000gn/T/chromatic--91461-nOW2KXulvEqN
+
+
+ 
+
+ >  NX   Successfully ran target build-storybook for project prismic-challenge-filterable-list
+
+
