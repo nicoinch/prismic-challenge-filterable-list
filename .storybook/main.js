@@ -1,6 +1,13 @@
 const config = {
-  stories: ['../src/app/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
-  addons: ['@storybook/addon-essentials'],
+  stories: [
+    '../src/app/**/*.stories.@(js|jsx|ts|tsx|mdx)',
+    '../src/components/**/*.stories.@(js|jsx|ts|tsx|mdx)',
+  ],
+  addons: [
+    '@storybook/addon-essentials',
+    '@storybook/addon-styling',
+    '@storybook/addon-interactions',
+  ],
   framework: {
     name: '@storybook/react-vite',
     options: {

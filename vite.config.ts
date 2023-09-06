@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
+import path from 'path';
 
 export default defineConfig({
   cacheDir: './node_modules/.vite/prismic-challenge-filterable-list',
@@ -22,6 +23,12 @@ export default defineConfig({
       root: './',
     }),
   ],
+
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
 
   // Uncomment this if you are using workers.
   // worker: {
